@@ -12,6 +12,7 @@ namespace OnlineStore.Models
         [Key]
         public int ID { get; set; }       
         public int ProductId { get; set; }
-        public string CustomerId { get; set; }       
+        public string CustomerId { get; set; }
+        public DateTime Time { get; set; }
     }
 }
